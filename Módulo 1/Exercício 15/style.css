@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: aqua;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20ox;
+}   
+h1{
+    color: crimson;
+    background-color: coral;
+}
+h2{
+    color: deeppink;
+}
+h2{
+    background-color: darkgoldenrod;
+}
+
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+h1{
+    text-decoration: underline;
+}
