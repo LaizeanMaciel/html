@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-be">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=7, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:darkgray;
+        }
+
+        header{
+            background-color: white;
+            margin: 0px;
+            padding: 10px;
+        }
+
+        nav{
+            padding: 3px;
+
+        }
+        nav > a{
+            padding-right: 50px;
+        }
+
+        header > nav{
+                background-color: brown;
+                box-shadow: 2px 2px 2px rgba(0, 128, 0, 0.416);
+                border-radius: 10px;
+                padding-left: 10px;
+        }
+
+        main > p{
+            background-color: bisque;
+        }
+
+        article{
+            background-color:aquamarine;
+            padding: 5px;
+            border-radius: 10px 20px;
+        }
+
+    
+
+        footer{
+            background-color: black;
+            padding: 5px;
+            color: white;
+            text-align: center;
+            margin: 0px;
+            padding: 4px;
+        }
+
+        footer > p{
+            margin: 0;
+
+        }
+
+        article > aside{
+
+            background-color: brown;
+        }
+
+        
+
+        article:hover > aside{
+            text-decoration: underline;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+            <nav>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </nav>
+    </header>
+        <main>
+            <section id="noticias">
+                <article>
+                    <h2>
+                        Notícias sobre o Brasil
+                    </h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex quia quam dolorum sapiente, voluptatem non possimus cum aut optio veritatis minima hic temporibus debitis, amet provident nam ipsum autem doloremque.</p>
+                        <aside>
+                            <p>Artigo escrito por José da Silva</p>
+                        </aside>
+                </article>
+
+            </section>
+        </main>
+        <footer>
+            <p>Desenvolvido por CursoEmVídeo</p>
+        </footer>
+    
+</body>
+</html>

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.container{
+    max-width: 350px;
+    margin: 0 auto;                              
+
+}
+
+.wrapper{
+    margin: 2em 1em;
+    padding: 20px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    box-shadow: 0px 20px 40px 10px rgba(0, 0, 0, 50);
+    
+}
+
+.image-top{
+    border-radius: 15px 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-top img{
+    width: 100%;
+    display: block;
+}
+
+
+.image-overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: hsl(178, 100%, 50%, 0.5);
+    display: none;
+}   
+
+.image-overlay img{
+    position: absolute;
+    width: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-top:hover .image-overlay{
+    display: block;
+    cursor: pointer;
+}
+
+.box-text a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 21px;
+    padding: 20px 0;
+    display: inline-block;
+}
+
+.box-text a:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.box-text p{
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.eth, .days {
+    display: flex;
+    align-items: center;
+}
+
+.eth p{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    padding-left: 8px;
+}
+.days p{
+    padding-left: 8px;
+}
+
+hr {
+    border-color:  hsl(215, 32%, 27%);
+    margin-top: -1%;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    padding-top: 8 px;
+    margin-bottom: -2%;
+}
+
+.author img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-right: 15px;
+}
+
+.author a{
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.author a:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}

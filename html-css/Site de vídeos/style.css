@@ -1,0 +1,41 @@
+@charset "UTF8";
+
+body{
+    background-image: linear-gradient(to bottom, #0B0C0D, #4F5559);
+     background-attachment: fixed;
+ }
+
+#imagem{
+    display: flex;
+    justify-content:center;
+}
+
+
+ h1{
+    background-color: rgb(47, 47, 48);
+     color: white;
+ }  
+
+
+
+
+#principal{
+    font-family: valorant;
+    font-size: 3em;
+    text-align: center;
+}
+
+
+
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}  
+p{
+    color: bisque;
+    background-color: #4F5559;
+}
+a{
+    color: white;
+}
+
+ 
